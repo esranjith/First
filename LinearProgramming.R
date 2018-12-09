@@ -41,6 +41,7 @@ get.variables(lprecF1)  #how much of each crop A & B
 150* 65 + 200 * 80
 get.constraints(lprecF1) #constraints of budget & labor used
 plot(lprecF1)  # print graphical output : only when type is real
+points(65,80)
 #if type is integer, the plot will not work
 print(lprecF1)  #see the model
 
