@@ -17,6 +17,7 @@ km2$withinss
 
 km3= kmeans(data,centers=3)
 km3$tot.withinss
+km3$withinss
 
 km4= kmeans(data,centers=4)
 km4$tot.withinss
@@ -42,7 +43,7 @@ head(data2)
 nc = NbClust(data2, distance="euclidean",min.nc=2, max.nc=15, method="average")
 det(as.matrix(mtcars))
 ?na.action
-km3= kmeans(data,centers=3)
+km3= kmeans(data2,centers=3)
 km3$tot.withinss
 
 cbind(km1$tot.withinss, km2$tot.withinss, km3$tot.withinss, km4$tot.withinss,km5$tot.withinss)
