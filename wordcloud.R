@@ -22,7 +22,7 @@ wordcloud2(demoFreq, size=1.6, color='random-dark')
 
 # or a vector of colors. vector must be same length than input data
 wordcloud2(demoFreq, size=1.6, color=rep_len( c("green","blue"), nrow(demoFreq) ) )
-
+#hello
 # Change the background color
 wordcloud2(demoFreq, size=1.6, color='random-light', backgroundColor="black")
 
